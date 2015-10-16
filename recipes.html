@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Recipes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+        <link href="app.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section data-role="page" id="main">
+            <header data-role="header">
+                <h1>List Menu</h1>
+                <a href="" data-role="button" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="index.html#home" rel="external" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            </header>
+            <div data-role="content">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#n1" data-role="button" data-transition="flip">
+                                <div class="ui-grid-d">
+                                    <div class="ui-block-a"></div>
+                                    <div class="ui-block-b"><img class="img_s" src="images/n1.jpg"></div>
+                                    <div class="ui-block-c"></div>
+                                    <div class="ui-block-d">เซียนคะน้ากรอบเจ</div>
+                                    <div class="ui-block-e"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <!--<li><a href="#n2" data-role="button" data-transition="flip"><img class="img_s" src="images/n2.jpg">ผัดโป๊ยเซียนเจ</a></li>-->
+                        <li><a href="#n2" data-role="button" data-transition="flip">
+                                <div class="ui-grid-d">
+                                    <div class="ui-block-a"></div>
+                                    <div class="ui-block-b"><img class="img_s" src="images/n2.jpg"></div>
+                                    <div class="ui-block-c"></div>
+                                    <div class="ui-block-d">ผัดโป๊ยเซียนเจ</div>
+                                    <div class="ui-block-e"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <!--<li><a href="#n3" data-role="button" data-transition="flip"><img class="img_s" src="images/n3.jpg">หมูกรอบเครื่องแกงเจ</a></li>-->
+                        <li><a href="#n3" data-role="button" data-transition="flip">
+                                <div class="ui-grid-d">
+                                    <div class="ui-block-a"></div>
+                                    <div class="ui-block-b"><img class="img_s" src="images/n3.jpg"></div>
+                                    <div class="ui-block-c"></div>
+                                    <div class="ui-block-d">หมูกรอบเครื่องแกงเจ</div>
+                                    <div class="ui-block-e"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <!--<li><a href="#n4" data-role="button" data-transition="flip"><img class="img_s" src="images/n4.jpg">ต้มส้มเห็ดเจ</a></li>-->
+                        <li><a href="#n4" data-role="button" data-transition="flip">
+                                <div class="ui-grid-d">
+                                    <div class="ui-block-a"></div>
+                                    <div class="ui-block-b"><img class="img_s" src="images/n4.jpg"></div>
+                                    <div class="ui-block-c"></div>
+                                    <div class="ui-block-d">ต้มส้มเห็ดเจ</div>
+                                    <div class="ui-block-e"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <div data-role="navbar">
+                    <ul>                        
+                        <li><a href="index.html#about-vegan" rel="external" data-role="button" data-icon="info" >About Vegan</a></li>
+                        <li><a href="index.html#about-us" rel="external"  data-role="button" data-icon="user" >About Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+        <section data-role="page" id="n1">
+            <header data-role="header">
+                <h1>เซียนคะน้ากรอบเจ</h1>
+                <a href="" data-role="button" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="index.html#home" rel="external" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            </header>
+            <div data-role="content">
+                <div class="img1"><p class="plink"><a data-rel="popup" href="#pop1" datatransition="slidedown"><img class="img1" src="images/n1.jpg"></a></p></div>
+                <div data-role="popup" id="pop1">
+                    <!--<a data-rel="back" data-role="button" data-icon="delete" class="ui-btn-right" data-iconpos="notext"></a>-->
+                    พลังงาน 250 Kcal
+                </div>
+                <div data-role="collapsible">
+                    <h2>ส่วนผสม</h2>
+                    <p>เห็ดหอมดอกใหญ่ 8 ดอก (แช่น้ำให้นิ่ม)<br>
+                    ซีอิ๊วขาว 1 ช้อนโต๊ะ<br>
+          น้ำมันงา 2 ช้อนชา<br>
+          ยอดคะน้า หรือคะน้าต้นเล็กอ่อน ๆ<br>
+          น้ำเปล่า 1/3 ถ้วย<br>
+          แป้งข้าวโพด 1 ช้อนชา<br></p>
+                </div>
+                <div data-role="collapsible">
+                    <h2>วิธีทำ</h2>
+                    <p>1. นำเห็ดหอมที่แช่น้ำจนนิ่มแล้ว (ตัดก้านออก) คลุกกับซีอิ๊วขาวและน้ำมันงา<br>
+          2. นำเห็ดหอมไปย่างในกระทะ ใส่น้ำมันพอเคลือบกระทะ ย่างจนสุก กลิ่นหอม และสีสวย ตักใส่จานเตรียมไว้<br>
+          3. ทำน้ำราด โดยผสมน้ำเปล่ากับแป้งข้าวโพด ปรุงรสด้วยซีอิ๊วขาวนิดหน่อย เหมือนน้ำราดหน้า<br>
+          4. นำคะน้าลงลวกในน้ำร้อนพอสุกแล้วนำไปน็อคในน้ำเย็นเพื่อคงสีสัน จากนั้นนำไปวางในจานเสิร์ฟ ข้าง ๆเห็ดหอม ราดด้วยน้ำราดหน้า โรยงาขาวคั่ว </p>
+                </div>
+            </div>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <div data-role="navbar">
+                    <ul>                        
+                        <li><a href="index.html#about-vegan" rel="external" data-role="button" data-icon="info" >About Vegan</a></li>
+                        <li><a href="index.html#about-us" rel="external"  data-role="button" data-icon="user" >About Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+        <section data-role="page" id="n2">
+            <header data-role="header">
+                <h1>ผัดโป๊ยเซียนเจ</h1>
+                <a href="" data-role="button" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="index.html#home" rel="external" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            </header>
+            <div data-role="content">
+                <div class="img1"><p class="plink"><a data-rel="popup" href="#pop1" datatransition="slidedown"><img class="img1" src="images/n2.jpg"></a></p></div>   
+                <div data-role="popup" id="pop2">                    
+                    พลังงาน 360 Kcal
+                </div>
+                <div data-role="collapsible">
+                    <h2>ส่วนผสม</h2>
+                    <p>หมี่กึง 1/2 ถ้วย<br>
+          เต้าหู้ขาว 1/2 ถ้วย<br>
+          ผักกาดขาว 1/2 ถ้วย<br>
+          ผักบุ้ง 1/2 ถ้วย<br>
+          แครอทหั่นแว่นบาง 1/2 ถ้วย<br>
+          ข้าวโพดอ่อน 1/2 ถ้วย<br>
+          เห็ดฟาง 1/2 ถ้วย<br>
+          ถั่วงอก 1/2 ถ้วย<br>
+          ถั่วลันเตา 100 กรัม<br>
+          วุ้นเส้น 1/2 ถ้วย<br>
+          ซอสเห็ดหอมเจ 1 ช้อนโต๊ะ<br>
+          น้ำตาลทราย 1 ช้อนชา<br>
+          ซีอิ๊วขาว 2 ช้อนโต๊ะ</p>
+                </div>
+                <div data-role="collapsible">
+                    <h2>วิธีทำ</h2>
+                    <p>1. ตั้งกระทะใส่น้ำมันพืชพอร้อน ใส่หมี่กึงและเต้าหู้ขาวลงไปผัด จากนั้นใส่หมี่กึง เต้าหู้ขาว ผักกาดขาว ผักบุ้ง แครอท ข้าวโพดอ่อน ถั่วลันเตา วุ้นเส้น และเห็ดฟางลงไปผัด พอสุก<br>
+                       2. ใส่วุ้นเส้นลงไปผัดให้นิ่ม ปรุงรสด้วยซีอิ๊วขาว ซอสเห็ดหอมเจ และน้ำตาลทราย จากนั้นนำถั่วงอกลงไปผัดให้เข้ากัน ตักใส่จาน พร้อมเสิร์ฟ </p>
+                </div>
+            </div>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <div data-role="navbar">
+                    <ul>                        
+                        <li><a href="index.html#about-vegan" rel="external" data-role="button" data-icon="info" >About Vegan</a></li>
+                        <li><a href="index.html#about-us" rel="external"  data-role="button" data-icon="user" >About Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+        <section data-role="page" id="n3">
+            <header data-role="header">
+                <h1>หมูกรอบเครื่องแกงเจ</h1>
+                <a href="" data-role="button" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="index.html#home" rel="external" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            </header>
+            <div data-role="content">
+                <div class="img1"><p class="plink"><a data-rel="popup" href="#pop1" datatransition="slidedown"><img class="img1" src="images/n3.jpg"></a></p></div>                
+                <div data-role="collapsible-set">
+                <div data-role="collapsible">
+                    <h2>ส่วนผสม</h2>
+                    <p>โปรตีนเกษตร 150 กรัม<br>
+                        เครื่องแกงเผ็ดเจ 1 ช้อนโต๊ะ<br>
+                        ซีอิ๊วขาว 2 ช้อนชา<br>
+                        แป้งทอดกรอบ 3 ช้อนโต๊ะ<br>
+                        น้ำตาลปี๊ป 2 ช้อนชา<br>
+                        ใบมะกรูดหั่นฝอย 2 ช้อนโต๊ะ</p>
+                </div>
+                <div data-role="collapsible">
+                    <h2>วิธีทำ</h2>
+                    <p>1. ตั้งกระทะใส่น้ำมันพืชพอร้อน ใส่หมี่กึงและเต้าหู้ขาวลงไปผัด จากนั้นใส่หมี่กึง เต้าหู้ขาว ผักกาดขาว ผักบุ้ง แครอท ข้าวโพดอ่อน ถั่วลันเตา วุ้นเส้น และเห็ดฟางลงไปผัด พอสุก<br>
+
+          2. ใส่วุ้นเส้นลงไปผัดให้นิ่ม ปรุงรสด้วยซีอิ๊วขาว ซอสเห็ดหอมเจ และน้ำตาลทราย จากนั้นนำถั่วงอกลงไปผัดให้เข้ากัน ตักใส่จาน พร้อมเสิร์ฟ </p>
+                </div>
+                </div>
+            </div>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <div data-role="navbar">
+                    <ul>                        
+                        <li><a href="index.html#about-vegan" rel="external" data-role="button" data-icon="info" >About Vegan</a></li>
+                        <li><a href="index.html#about-us" rel="external"  data-role="button" data-icon="user" >About Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+        <section data-role="page" id="n4">
+            <header data-role="header">
+                <h1>ต้มส้มเห็ดรวม</h1>
+                <a href="" data-role="button" data-rel="back" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="index.html#home" rel="external" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            </header>
+            <div data-role="content">
+                <div class="img1"><p class="plink"><a data-rel="popup" href="#pop1" datatransition="slidedown"><img class="img1" src="images/n4.jpg"></a></p></div>                
+                <div data-role="collapsible">
+                    <h2>ส่วนผสม</h2>
+                    <p>น้ำสต็อกเห็ดหอม 800 มิลลิลิตร<br>
+          ข่าหั่นแว่น 10 แว่น<br>
+          ตะไคร้ทุบหั่นท่อน 3 ต้น<br>
+          ขมิ้นสดปอกเปลือก 50 กรัม<br>
+          ดอกกะหล่ำ 100 กรัม<br>
+          กะปิเจ 2 ช้อนชา<br>
+          ซีอิ๊วขาว และน้ำตาลทราย ปริมาณเล็กน้อย<br>
+          เห็ดนานาชนิดตามชอบ 200 กรัม<br>
+          เต้าหู้โมเมน 1 กล่อง<br>
+          ใบมะกรูดฉีก 10 ใบ<br>
+          พริก และไควาเระสำหรับตกแต่ง</p>
+                </div>
+                <div data-role="collapsible">
+                    <h2>วิธีทำ</h2>
+                    <p>1. ต้มน้ำสต็อกเห็ดหอมให้เดือด ใส่ ข่าตะไคร้ และขมิ้น ต้มจนเดือด<br>
+                        2. นำดอกกะหล่ำลงต้มจนนุ่ม เติมกะปิเจลงไป ปรุงรสด้วยซีอิ๊วขาวและน้ำตาลชิมรสตามชอบ<br>
+                        3. เติมเห็ด เต้าหู้ และใบมะกรูด ต้มต่อจนเดือด ปิดไฟ<br>
+                        4. ตักใส่ถ้วย โรยด้วยพริกและไควาเระให้สวยงามก่อนเสิร์ฟ </p>
+                </div>
+            </div>
+            <footer data-role="footer" data-position="fixed" data-fullscreen="true">
+                <div data-role="navbar">
+                    <ul>                        
+                        <li><a href="index.html#about-vegan" rel="external" data-role="button" data-icon="info" >About Vegan</a></li>
+                        <li><a href="index.html#about-us" rel="external"  data-role="button" data-icon="user" >About Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+    </body>
+</html>
